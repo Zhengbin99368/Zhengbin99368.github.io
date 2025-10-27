@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo" class="logo-img">
+                <span class="logo-text">UVNITY</span>
+            </div>
+            <nav class="nav">
+                <a href="/index.html" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Carousel Section -->
+    <main class="main">
+        <div class="carousel-container">
+            <div class="carousel">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1 class="slide-title">UV Hanger</h1>
+                            <p class="slide-description">Bringing the sun nearer to you. A portable hanger that can help you to sterilise garments that are too dirty to wear, too clean to wash.</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="/Images/Untitled35_20250915161912.png" alt="UV hanger">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Charging Dock</h1>
+                            <p class="slide-description">A charging dock that allow you to charge multiple UV hanger at the same time.</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="/Images/Untitled36_20250915173408.png" alt="Charging dock">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Coat Cover</h1>
+                            <p class="slide-description">A coat cover is a safety protocol to protect your health from the UV direct shine. This can eliminate the chance of getting skin cancer by using our product.</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="/Images/Untitled37_20250915173615.png" alt="Coat Cover1">
+                            <!-- <img src="/Images/Untitled37_20250915173636.png" alt="Coat Cover2"> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+<!--                 <div class="slide">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h1 class="slide-title">Customer Focused</h1>
+                            <p class="slide-description">Built with you in mind. Every detail is crafted to enhance your experience and exceed your expectations.</p>
+                        </div>
+                        <div class="slide-image">
+                            <img src="product4.jpg" alt="Customer Focused Product">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-btn prev" aria-label="Previous slide">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+            <button class="carousel-btn next" aria-label="Next slide">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button class="indicator active" data-slide="0"></button>
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
